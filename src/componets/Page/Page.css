@@ -1,0 +1,13 @@
+.page {
+    padding: 50px 100px;
+}
+
+.page__title {
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+
+.page__content {
+    margin-top: 40px;
+}

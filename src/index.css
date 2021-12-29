@@ -1,0 +1,24 @@
+:root {
+  --core-margin: 36px;
+  --leftSideBar-width: calc( 275px + var(--core-margin));
+  --purple: #55495F;
+  --pink: #F67E7F;
+  --pink-light: #E3B1B0;
+  --yellow: #F9C973;
+  --inset-shadow: inset 0 0 4px rgb(48, 48, 48);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body, #root{
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root { 
+  display: flex;
+}

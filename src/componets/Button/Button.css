@@ -1,0 +1,19 @@
+.mainpage_button{
+    background-color: var(--purple);
+    height: 40px;
+    width: 350px;
+    color: white;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.mainpage_button:hover{
+    transform: scale(1.02);
+}

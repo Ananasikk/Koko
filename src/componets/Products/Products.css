@@ -1,0 +1,13 @@
+.products {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.products img {
+    width: auto;
+    height: 300px;
+    box-shadow: 0 0 32px rgb(145, 145, 145);
+    border-radius: 8px;
+}

@@ -1,0 +1,54 @@
+.leftSideBar {
+    width: var(--leftSideBar-width);
+    height: 100%;
+    position: fixed;
+    background-color: var(--purple);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.logo {
+    margin-bottom: 80px;
+}
+
+.menu__title {
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.menu__item {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    padding-right: 20px;
+}
+
+.menu__icon {
+    margin-right: 14px;
+}
+
+.menu__icon img {
+    width: 30px;
+}
+
+.menu__name {
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    font-size: 19px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.menu__link:hover, .menu__name:hover {
+    color: var(--yellow);
+}
