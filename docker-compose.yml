@@ -1,0 +1,16 @@
+volumes:
+  clothes_resources:
+
+services:
+  clothes_server:
+    build: Clothes_server/
+    restart: always
+    image: web-clothes
+    ports:
+      - "8080:8080"
+  client:
+    build: Clothes_client/
+    restart: always
+    image: web-clothes_client
+    ports:
+      - "3000:3000"

@@ -1,0 +1,7 @@
+[
+    { "id": 0, "name": "пуловер", "path": "pullover"},
+    {"id": 1, "name": "платье", "path": "dress"},
+    {"id": 2, "name": "юбка", "path": "skirt"},
+    {"id": 3, "name": "рубашка", "path": "pullover"},
+    {"id": 4, "name": "ботинки", "path": "dress"}
+]

@@ -1,0 +1,20 @@
+.products {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.products img {
+    width: auto;
+    height: 200px;
+    box-shadow: 0 0 32px rgb(145, 145, 145);
+    border-radius: 8px;
+}

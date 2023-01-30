@@ -1,4 +1,10 @@
-/node_modules
-/src/.DS_Store
-/src/componets/.DS_Store
-/src/componets/LeftSideBar/.DS_Store
+Clothes_client/node_modules
+Clothes_client/build
+Clothes_client/src/.DS_Store
+Clothes_client/src/componets/.DS_Store
+Clothes_client/src/componets/LeftSideBar/.DS_Store
+Clothes_server/venv
+Clothes_server/resources/fashion_1.h5
+Clothes_server/resources/fashion_style_1.h5
+.env
+.venv

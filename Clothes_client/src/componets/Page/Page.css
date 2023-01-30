@@ -1,0 +1,108 @@
+.page {
+    padding: 50px 100px;
+}
+
+.page__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__title {
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+
+.page__register, .account__label, .account__exit {
+    font-size: 16px;
+    color: blue;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+}
+
+.page__register, .account__exit {
+    cursor: pointer;
+}
+
+.page__content {
+    margin-top: 40px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.modal__content--register {
+    position: relative;
+    width: 340px;
+    background-color: white;
+    box-shadow: 0 0 102px rgb(41, 41, 41);
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.modal__close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 22px;
+    color: black;
+    padding: 4px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.auth__title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+
+.auth__container {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.auth__label, .auth__input {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+
+.auth__on {
+    margin: 0 auto;
+    margin-top: 18px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+.auth__error {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    color: red;
+}
+
+.account {
+    display: flex;
+    gap: 12px;
+}
